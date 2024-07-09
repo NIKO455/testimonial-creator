@@ -7,7 +7,7 @@ export default function Root() {
   return (
     <div>
       <Header />
-      <div className="max-w-[1220px] m-auto bg-red-500">
+      <div className="max-w-[1220px] m-auto">
         <Outlet />
       </div>
       <Footer />
