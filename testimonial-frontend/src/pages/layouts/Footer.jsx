@@ -3,7 +3,7 @@ import React from "react";
 export default function Footer() {
   return (
     <div>
-      <footer class="mt-auto bg-slate-700 w-full  py-10 px-4 sm:px-6 lg:px-8 mx-auto">
+      <footer class="mt-auto  w-full  py-10 px-4 sm:px-6 lg:px-8 mx-auto">
         <div className="max-w-[85rem] w-full mx-auto">
           <div class="text-center">
             <div>

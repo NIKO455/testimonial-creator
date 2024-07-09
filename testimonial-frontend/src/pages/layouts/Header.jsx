@@ -1,17 +1,18 @@
 import React from "react";
+import {Link} from 'react-router-dom'
 
 export default function Header() {
   return (
     <div>
-      <header class="flex dark:bg-slate-700 flex-wrap md:justify-start md:flex-nowrap z-50 w-full py-7">
+      <header class="flex flex-wrap md:justify-start md:flex-nowrap z-50 w-full py-7">
         <nav
           class="relative max-w-7xl w-full flex flex-wrap md:grid md:grid-cols-12 basis-full items-center px-4 md:px-8 mx-auto"
           aria-label="Global"
         >
           <div class="md:col-span-3">
-            <a
+            <Link
               class="flex-none rounded-xl text-xl inline-block font-semibold focus:outline-none focus:opacity-80"
-              href="../templates/creative-agency/index.html"
+              to={"/"}
               aria-label="Preline"
             >
               <svg
@@ -47,7 +48,7 @@ export default function Header() {
                   fill="currentColor"
                 />
               </svg>
-            </a>
+            </Link>
           </div>
 
           <div class="flex items-center gap-x-2 ms-auto py-1 md:ps-6 md:order-3 md:col-span-3">
