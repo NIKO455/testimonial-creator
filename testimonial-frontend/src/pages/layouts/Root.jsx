@@ -7,7 +7,9 @@ export default function Root() {
   return (
     <div>
       <Header />
-      <Outlet />
+      <div className="max-w-[1220px] m-auto bg-red-500">
+        <Outlet />
+      </div>
       <Footer />
     </div>
   );
